@@ -1,7 +1,23 @@
 body{
     font-family: 'Noto Sans JP', sans-serif;
     margin: 0;
+    overflow-x: hidden;
+
 }
+
+button{
+    background-color:#E02C6D;
+    border:1px solid #E02C6D;
+    color:#FFFFFF;
+    width: 128px;
+    height:34px;
+    position: relative;
+}
+
+.navbar button{
+    left:780%;
+}
+
 
 header{
     background-color: #2D25A0;
@@ -13,21 +29,23 @@ header{
     width:1160px;
     height: 40px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin-left: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 60px;
+    
+
 }
 
 .navbar ul{
     list-style: none;
-    display:flex;
-    width:997px;
-    height: 24px;
+    position: absolute;
+
 
     
 }
 
 .navbar li{
     margin: 10px;
+    display: inline-block;
     
 }
 
@@ -37,12 +55,63 @@ header{
     width:48px;
     height: 24px;
 }
-button{
-    background-color:#E02C6D;
-    border:1px solid #E02C6D;
-    color:#FFFFFF;
-    width: 128px;
-    height:34px;
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 110px;
+
+}
+
+.image img{
+    width:100%; 
+    
+} 
+
+.information h1{
+    color: white;
+    font-size:3.5em;
+    font-family: 'Otomanopee One', sans-serif;
+    width:100%;
+}
+
+.information button{
+    margin: 15px;
+
+}
+
+.player_list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+    position: relative;
+    margin-left: 170px;
+}
+
+.player img,h1{
+    width: 300px;
+    height: 256px;
+    margin: 15px;
+    border-radius:10px;
+
     
 }
+
+.player h1{
+    font-weight: bold;
+}
+
+.player{
+    width:330px;
+    height:474px;
+    border:2px solid white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 20px grey;
+    margin:15px;
+    border-radius:25px;
+    overflow: hidden;
+}
+
+
 
