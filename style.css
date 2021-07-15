@@ -56,13 +56,13 @@ footer img{
 
 /* navigation panal */
 
-.navbar button{
+#navbar button{
     left:780px ;
 }
 
 
 
-.navbar{
+#navbar{
     width:1160px;
     height: 40px;
     display: grid;
@@ -72,7 +72,7 @@ footer img{
 
 }
 
-.navbar ul{
+#navbar ul{
     list-style: none;
     position: absolute;
 
@@ -80,13 +80,13 @@ footer img{
     
 }
 
-.navbar li{
+#navbar li{
     margin: 10px;
     display: inline-block;
     
 }
 
-.navbar a{
+#navbar a{
     color:#FFFFFF;
     width:48px;
     height: 24px;
@@ -100,13 +100,6 @@ footer img{
     margin: 110px;
 
 }
-
-/* image class */
-
-.image img{
-    width:600px; 
-    
-} 
 
 
 /* information class */
@@ -122,7 +115,12 @@ footer img{
 
 }
 
+/* image class */
 
+.image img{
+    width:600px; 
+    
+} 
 
 
 /* player class */
@@ -188,9 +186,11 @@ footer img{
     justify-content: center;
 }
 
-.half img{
-    width:100%;
-    
+
+.half h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.5em;
+    margin-bottom: 15px;
 }
 
 
@@ -205,10 +205,9 @@ footer img{
     
 }
 
-.half h1{
-    font-family: 'Bree Serif', serif;
-    font-size: 3.5em;
-    margin-bottom: 15px;
+.half img{
+    width:100%;
+    
 }
 
 #Stadiums{
@@ -233,6 +232,8 @@ footer img{
     justify-content: center;
     
 }
+
+/* flex-display class  */
 
 #flex-display{
 
@@ -273,18 +274,8 @@ footer img{
 }
 
 
-/* fontawesome sizing */
 
-.fab {
-    font-size: 1.5em;
-    margin: 15px;
-    background-color: rgb(230, 227, 227);
-    padding:7px;
-    border-radius:35px;
-    margin-bottom: 0;
-    margin-top: 5px;
-    color: grey;
-}
+/* for trophy section*/
 
 #cup{
     
@@ -314,7 +305,6 @@ footer img{
     padding-top:0;
     padding-bottom: 0;
     text-align: justify;
-    /* font-family: 'Handlee', cursive; */
     font-family: 'STIX Two Math', serif;
     font-size:1.2em;
     margin-bottom:30px;
@@ -322,7 +312,7 @@ footer img{
     
 }
 
-#cup button a{
+#cup button {
     width: 200px;
     height: 50px;
     font-size:1.2em;
@@ -339,6 +329,19 @@ footer img{
 #cup button:hover{
     background-color:gainsboro;
     color:black;
+}
+
+/* fontawesome sizing for footers */
+
+.fab {
+    font-size: 1.5em;
+    margin: 15px;
+    background-color: rgb(230, 227, 227);
+    padding:7px;
+    border-radius:35px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    color: grey;
 }
 
 
@@ -365,14 +368,14 @@ footer img{
     
     /* navigation panal */
     
-    .navbar button{
+    #navbar button{
         left:190%;
         top:40px;
     }
     
     
     
-    .navbar{
+    #navbar{
         
         margin-left: 10px;
         
@@ -584,14 +587,14 @@ footer img{
     
     /* navigation panal */
     
-    .navbar button{
+    #navbar button{
         left:550px;
         
     }
     
     
     
-    .navbar{
+    #navbar{
         
         margin-left: 0px;
         
