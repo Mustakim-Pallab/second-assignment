@@ -90,7 +90,7 @@ footer img{
     color:#FFFFFF;
     width:48px;
     height: 24px;
-    
+
 }
 
 /* container */
@@ -255,6 +255,7 @@ footer img{
     padding-bottom: 0;
     margin-left:150px;
     font-size: 2em;
+    margin-top:550px;
 }
 
 #flex-display p{
