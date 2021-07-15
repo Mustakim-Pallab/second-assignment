@@ -255,7 +255,7 @@ footer img{
     padding-bottom: 0;
     margin-left:150px;
     font-size: 2em;
-    margin-top:550px;
+    margin-top:350px;
 }
 
 #flex-display p{
@@ -269,7 +269,7 @@ footer img{
     
 }
 
-#flex-display button{
+#flex-display button a{
     
     display: block;
     margin-top:30px;
