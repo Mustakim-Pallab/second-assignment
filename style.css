@@ -1,4 +1,10 @@
 
+
+/* google fonts */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Lobster+Two&family=Permanent+Marker&family=Tangerine:wght@700&display=swap');
+
 /* Utilities */
 
 body{
@@ -26,10 +32,12 @@ button{
     width: 128px;
     height:34px;
     position: relative;
+    cursor: pointer;
 }
 
 a{
     text-decoration: none;
+    color:white;
 }
 
 footer{
@@ -39,6 +47,9 @@ footer{
     align-items: center;
     
 }
+
+/* for image in footer */
+
 footer img{
     width:20%;
 }
@@ -112,6 +123,8 @@ footer img{
 }
 
 
+
+
 /* player class */
 
 .player_list{
@@ -162,6 +175,7 @@ footer img{
 
     font-family: 'Lora', serif;
     margin:18px;
+    text-align: justify;
 }
 
 
@@ -186,6 +200,7 @@ footer img{
     margin-top: 5px;
     margin-left: 0;
     padding-right: 50px;
+    text-align: justify;
     
     
 }
@@ -197,13 +212,14 @@ footer img{
 }
 
 #Stadiums{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     /* background:url("stadium2.jpg"); */
 }
 
 #Stadiums img{
-    width:100%;
-    height:100%;
+    margin-top: 3px;
+    width:1350px;
+    /* height:100%; */
     
 
 }
@@ -223,8 +239,8 @@ footer img{
     display: flex;
     flex-direction: column;
     position: absolute;
-    width: 100%;
-    height:118%;
+    width: 1500px;
+    height:751px;
     justify-content: center;
     overflow: hidden;
     color: white;
@@ -242,10 +258,11 @@ footer img{
 #flex-display p{
     padding:400px;
     padding-top: 0;
-    padding-right: 100px;
+    padding-right: 300px;
     margin-left:150px;
     color: aliceblue;
     font-size:1.2em;
+    text-align: justify;
     
 }
 
@@ -271,7 +288,57 @@ footer img{
 
 #cup{
     
-    align-content: center;
+    display: flex;
+    flex-direction:column; 
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+#cup img{
+    width:499px;
+    height:499px;
+    margin-top:0px;
+    
+}
+
+#cup h1{
+    font-family: 'Lobster Two', cursive;
+    font-size:6em;
+    margin-top:35px;
+    margin-bottom:15px;
+
+}
+#cup p{
+    padding:200px;
+    padding-top:0;
+    padding-bottom: 0;
+    text-align: justify;
+    /* font-family: 'Handlee', cursive; */
+    font-family: 'STIX Two Math', serif;
+    font-size:1.2em;
+    margin-bottom:30px;
+   
+    
+}
+
+#cup button a{
+    width: 200px;
+    height: 50px;
+    font-size:1.2em;
+    font-family: 'STIX Two Math', serif;
+    background-color:ghostwhite;
+    color:black;
+
+}
+
+#cup .fas{
+    color: #E02C6D;
+}
+
+#cup button:hover{
+    background-color:gainsboro;
+    color:black;
 }
 
 
@@ -377,6 +444,128 @@ footer img{
     
     }
 
+    
+    #Stadiums{
+        margin-bottom: 100px;
+        /* background:url("stadium2.jpg"); */
+    }
+
+    #Stadiums img{
+        width:400px;
+        
+
+    }
+
+    #Stadiums {
+        margin:30px;
+    }
+
+
+
+    #flex-display{
+
+        display: inline-block;
+        width: 400px;
+        height:225px;
+        
+
+        
+    }
+
+    #flex-display h1{
+        padding:0px;
+        padding-bottom: 0;
+        margin-left:150px;
+        font-size:1em;
+        
+    }
+
+    #flex-display p{
+        padding:00px;
+        padding-top: 0;
+        padding-right: 10px;
+        margin-left:150px;
+        color: aliceblue;
+        font-size:.5em;
+        text-align: justify;
+        
+        
+    }
+
+    #flex-display button{
+        
+        display: block;
+        margin-top:5px;
+        font-size: 1.5em;
+        
+        padding: 0;
+        margin-left:-140px;
+        margin-top: -100px;
+        background-color:rgba(248, 248, 255, 0.397) ;
+        color:black;
+        font-weight: bold;
+    }
+
+    #flex-display button a{
+        color:black;
+    }
+
+    
+
+    #cup{
+        
+        display: flex;
+        flex-direction:column; 
+        align-items: center;
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+
+    #cup img{
+        width:499px;
+        height:499px;
+        margin-top:0px;
+        
+    }
+
+    #cup h1{
+        font-family: 'Lobster Two', cursive;
+        font-size:3em;
+        margin-top:35px;
+        margin-bottom:15px;
+
+    }
+    #cup p{
+        padding:50px;
+        padding-top:0;
+        padding-bottom: 0;
+        text-align: justify;
+        font-family: 'STIX Two Math', serif;
+        font-size:1.2em;
+        margin-bottom:30px;
+    
+        
+    }
+
+    #cup button{
+        width: 200px;
+        height: 50px;
+        font-size:1.2em;
+        font-family: 'STIX Two Math', serif;
+        background-color:ghostwhite;
+        color:black;
+
+    }
+
+    #cup .fas{
+        color: #E02C6D;
+    }
+
+    #cup button:hover{
+        background-color:gainsboro;
+        color:black;
+    }
+
 }
 
 /* ----------------------
@@ -472,6 +661,112 @@ footer img{
         margin: 5px;
         padding:5px;
     
+    }
+
+    #Stadiums{
+        margin-bottom: 100px;
+        /* background:url("stadium2.jpg"); */
+    }
+
+    #Stadiums img{
+        width:800px;
+        margin-top:4px;
+        
+
+    }
+
+    #Stadiums {
+        margin:40px;
+    }
+
+
+
+    #flex-display{
+
+        display: inline-block;
+        width: 800px;
+        height:445px;
+        
+
+        
+    }
+
+    #flex-display h1{
+        padding:50px;
+        padding-left: 150px;
+        padding-bottom: 0;
+        font-size:1.5em;
+        margin-top:0;
+        padding-top:20px;
+        
+    }
+
+    #flex-display p{
+        padding:80px;
+        padding-top: 0px;
+        padding-right: 10px;
+        margin-left:220px;
+        color: aliceblue;
+        font-size:.95em;
+        text-align: justify;
+        
+        
+    }
+
+
+
+    #cup{
+        
+        display: flex;
+        flex-direction:column; 
+        align-items: center;
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+
+    #cup img{
+        width:499px;
+        height:499px;
+        margin-top:0px;
+        
+    }
+
+    #cup h1{
+        font-family: 'Lobster Two', cursive;
+        font-size:3em;
+        margin-top:35px;
+        margin-bottom:15px;
+
+    }
+    #cup p{
+        padding:50px;
+        padding-top:0;
+        padding-bottom: 0;
+        text-align: justify;
+        font-family: 'STIX Two Math', serif;
+        font-size:1.2em;
+        margin-bottom:30px;
+    
+        
+    }
+
+    #cup button{
+        width: 200px;
+        height: 50px;
+        font-size:1.2em;
+        font-family: 'STIX Two Math', serif;
+        background-color:ghostwhite;
+        color:black;
+
+    }
+
+    #cup .fas{
+        color: #E02C6D;
+    }
+
+    #cup button:hover{
+        background-color:gainsboro;
+        color:black;
     }
 
 }
